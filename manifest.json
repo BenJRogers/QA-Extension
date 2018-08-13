@@ -1,0 +1,10 @@
+{
+	"name": "QA - extension",
+	"version": "1.0",
+	"description": "Extension to handle QA settings in Adobe Target",
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": true
+	},
+	"manifest_version": 2
+}
