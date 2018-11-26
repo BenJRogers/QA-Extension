@@ -1,10 +1,15 @@
 {
-	"name": "QA - extension",
-	"version": "1.0",
-	"description": "Extension to handle QA settings in Adobe Target",
-	"background": {
-		"scripts": ["background.js"],
-		"persistent": true
-	},
-	"manifest_version": 2
+  "name": "QA",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Extension to help with quality assurance testing",
+  "browser_action": {
+    "default_icon": "accordant_dentsu.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
 }
